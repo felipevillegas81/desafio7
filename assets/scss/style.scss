@@ -1,0 +1,63 @@
+@import 'variables';
+
+/* General page parameters */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.graybody{
+    background-color: $back-groundbody;
+}
+
+.transition {
+    transition: $transitions;
+    margin: 40px auto 0;
+
+&:hover{
+    width: 100%;
+    margin: 0% auto;
+}
+}
+
+
+.copyright{
+    padding: 2%;
+    margin: 2%;
+    background-color: $back-groundfooter;
+    color: white;
+    font-size: 20px;
+    font-weight:normal;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.lents{
+    width: 500px;
+    height: $autoimage;
+    border-color: black;
+    border-style:solid;
+}
+
+@media screen and (max-width: 1100px){
+
+    .lents{
+        width: 300px;
+        height: $autoimage;
+        border-color: black;
+        border-style:solid;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+
+    .lents{
+        width: 400px;
+        height: $autoimage;
+        border-color: black;
+        border-style:solid;
+    }
+
+}
